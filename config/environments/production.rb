@@ -34,7 +34,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   # Mount Action Cable outside main process or domain.
-  # config.action_cable.mount_path = nil
+  config.action_cable.mount_path = '/cable'
 
   # config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
   
