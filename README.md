@@ -1,6 +1,6 @@
 # Sezzle Calculator - Backend
 
-An application that provides multi-user chat with calculator functions in real-time. This [link](https://github.com/matthewsedlacek/sezzle-calculator-frontend/tree/master/Development/code/Projects/sezzle-calculator-frontend) will direct you to the frontend repository.
+An application that provides multi-user chat with calculator functions in real-time. This [link](https://github.com/matthewsedlacek/sezzle-frontend) will direct you to the frontend repository.
 
 ## Prompt
 
@@ -18,7 +18,7 @@ An application that provides multi-user chat with calculator functions in real-t
 4. Run `rails db:migrate` in terminal to create database migrations
 5. Run `rails db:seed` in terminal to add seed data to database
 6. Enter `rails s` in your terminal to run locally
-7. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-calculator-frontend/tree/master/Development/code/Projects/sezzle-calculator-frontend) repository
+7. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-frontend) repository
 
 ## Backend Technology Used
 
