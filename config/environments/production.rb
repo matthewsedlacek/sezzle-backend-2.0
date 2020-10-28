@@ -37,7 +37,7 @@ Rails.application.configure do
   # config.action_cable.mount_path = nil
 
   # config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
-  # config.action_cable.allowed_request_origins = ['*', '*']
+  config.action_cable.allowed_request_origins = ['*', '*']
 
   config.action_cable.url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
   # config.action_cable.allowed_request_origins = [ 'https://powerful-cove-61418.herokuapp.com', /http:\/\/https://powerful-cove-61418.herokuapp.com.*/ ]
