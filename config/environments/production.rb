@@ -1,9 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # config.web_socket_server_url = "wss://powerful-cove-61418.herokuapp.com/cable"
 
-  # onfig.action_cable.allowed_request_origins = ['https://powerful-cove-61418.herokuapp.com', 'http://powerful-cove-61418.herokuapp.com']
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -37,6 +35,10 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
+
+  config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
+  config.action_cable.allowed_request_origins = ['https://sezzle-calculator-backend.herokuapp.com', 'http://sezzle-calculator-backend.herokuapp.com']
+
   # config.action_cable.url = "wss://powerful-cove-61418.herokuapp.com/cable"
   # config.action_cable.allowed_request_origins = [ 'https://powerful-cove-61418.herokuapp.com', /http:\/\/https://powerful-cove-61418.herokuapp.com.*/ ]
 

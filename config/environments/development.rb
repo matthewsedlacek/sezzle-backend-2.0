@@ -4,6 +4,10 @@ Rails.application.configure do
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
+  
+  config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
+  config.action_cable.allowed_request_origins = ['https://sezzle-calculator-backend.herokuapp.com', 'http://sezzle-calculator-backend.herokuapp.com']
+  
   config.cache_classes = false
 
   # Do not eager load code on boot.
