@@ -10,15 +10,20 @@ An application that provides multi-user chat with calculator functions in real-t
 
 - Results should remain between sessions. Only show the last 10 calculations descending from most recent to oldest. The calculator only needs to implement basic arithmetic operations, although you can add other math functions if you would like to impress. But don't forget to meet the basic requirements of the exercise first!
 
-## Installation
+## Hosted
+
+Backend is hosted on [Heroku](https://sezzle-calculator-backend.herokuapp.com)
+
+## Local Installation
 
 1. Clone this repository
 2. `cd sezzle-backend`
 3. Run `bundle install` in terminal
-4. Run `rails db:migrate` in terminal to create database migrations
-5. Run `rails db:seed` in terminal to add seed data to database
-6. Enter `rails s` in your terminal to run locally
-7. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-frontend) repository
+4. In the config/cable.yml file uncomment out lines 11-12 and comment out line 10
+5. Run `rails db:migrate` in terminal to create database migrations
+6. Run `rails db:seed` in terminal to add seed data to database
+7. Enter `rails s` in your terminal to run locally
+8. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-frontend) repository
 
 ## Backend Technology Used
 
