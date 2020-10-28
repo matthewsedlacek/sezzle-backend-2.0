@@ -7,7 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-conversation_1 = Conversation.create(title: "Most Recent")
+conversation_1 = Conversation.create(title: "Chat Room 1")
+conversation_2 = Conversation.create(title: "Chat Room 2")
 
 message_1 = Message.create(text: "2 + 2 = 4", username: Faker::Name.first_name, conversation_id: 1)
 message_2 = Message.create(text: "9 + 1 = 10", username: Faker::Name.first_name, conversation_id: 1)
@@ -19,3 +20,8 @@ message_7 = Message.create(text: "1 + 2 - 2 = 1", username: Faker::Name.first_na
 message_8 = Message.create(text: "4 * 4 = 16", username: Faker::Name.first_name, conversation_id: 1)
 message_9 = Message.create(text: "1 + 2 = 3", username: Faker::Name.first_name, conversation_id: 1)
 message_10 = Message.create(text: "2 * 3 = 6", username: Faker::Name.first_name, conversation_id: 1)
+
+message_11 = Message.create(text: "1 + 2 - 2 = 1", username: Faker::Name.first_name, conversation_id: 2)
+message_12 = Message.create(text: "4 * 4 = 16", username: Faker::Name.first_name, conversation_id: 2)
+message_13 = Message.create(text: "1 + 2 = 3", username: Faker::Name.first_name, conversation_id: 2)
+message_14 = Message.create(text: "2 * 3 = 6", username: Faker::Name.first_name, conversation_id: 2)
