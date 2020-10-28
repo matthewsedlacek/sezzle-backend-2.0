@@ -8,7 +8,7 @@ Rails.application.configure do
   # config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
   # config.action_cable.allowed_request_origins = ['https://sezzle-calculator-backend.herokuapp.com', 'http://sezzle-calculator-backend.herokuapp.com']
   
-  config.action_cable.allowed_request_origins = ['https://sezzle-calculator-matthew-sedlacek.netlify.app/', 'https://sezzle-calculator-matthew-sedlacek.netlify.app/']
+  config.action_cable.allowed_request_origins = ['*', '*']
 
   config.action_cable.url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
 
