@@ -6,5 +6,6 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: sezzle_backend_production
+  url: redis://redistogo:da58f94f2021abd82b7a656b2cf21013@scat.redistogo.com:10572/
+  # url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  # channel_prefix: sezzle_backend_production
