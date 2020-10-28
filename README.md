@@ -1,6 +1,6 @@
-# Portfolio Practice - Backend
+# Sezzle Calculator - Backend
 
-An application that provides users the ability to message calculator functions. This [link](hhttps://github.com/matthewsedlacek/sezzle-calculator-frontend/tree/master/Development/code/Projects/sezzle-calculator-frontend) will direct you to the frontend repository.
+An application that provides multi-user chat with calculator functions in real-time. This [link](https://github.com/matthewsedlacek/sezzle-calculator-frontend/tree/master/Development/code/Projects/sezzle-calculator-frontend) will direct you to the frontend repository.
 
 ## Prompt
 

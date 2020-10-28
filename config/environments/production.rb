@@ -1,7 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.web_socket_server_url = "wss://powerful-cove-61418.herokuapp.com/cable"
+  # config.web_socket_server_url = "wss://powerful-cove-61418.herokuapp.com/cable"
 
   # onfig.action_cable.allowed_request_origins = ['https://powerful-cove-61418.herokuapp.com', 'http://powerful-cove-61418.herokuapp.com']
 
