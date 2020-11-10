@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
 
     def index
-        messages = Message.order(created_at: :id).limit(10)
+        messages = Message.order(created_at: :desc).limit(10)
         render json: messages
       end
 
@@ -20,6 +20,6 @@ class MessagesController < ApplicationController
     private
     
     def message_params
-      params.require(:message).permit(:id, :text, :username, :conversation_id)
+      params.require(:message).permit(:text, :username, :conversation_id)
     end
   end
