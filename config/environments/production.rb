@@ -38,7 +38,7 @@ Rails.application.configure do
   config.action_cable.disable_request_forgery_protection = true
   # config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
   
-  config.action_cable.url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
+  config.action_cable.url = "wss://gentle-castle-53687.herokuapp.com/cable" 
   config.action_cable.allowed_request_origins = ['*', '*']
   # config.action_cable.allowed_request_origins = [ 'https://sezzle-calculator-matthew-sedlacek.netlify.app', /http:\/\/https://sezzle-calculator-matthew-sedlacek.netlify.app.*/ ]
 
