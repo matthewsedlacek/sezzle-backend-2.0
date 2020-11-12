@@ -12,7 +12,7 @@ An application that provides multi-user chat with calculator functions in real-t
 
 ## Hosted
 
-Backend is hosted on [Heroku](https://github.com/matthewsedlacek/sezzle-frontend-2.0)
+Backend is hosted on [Heroku](https://gentle-castle-53687.herokuapp.com/messages)
 
 ## Local Installation
 
@@ -23,7 +23,7 @@ Backend is hosted on [Heroku](https://github.com/matthewsedlacek/sezzle-frontend
 5. Run `rails db:migrate` in terminal to create database migrations
 6. Run `rails db:seed` in terminal to add seed data to database
 7. Enter `rails s` in your terminal to run locally
-8. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-frontend) repository
+8. Run the frontend server - refer to [frontend](https://github.com/matthewsedlacek/sezzle-frontend-2.0) repository
 
 ## Backend Technology Used
 
