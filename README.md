@@ -1,6 +1,6 @@
 # Sezzle Calculator - Backend
 
-An application that provides multi-user chat with calculator functions in real-time. This [link](https://github.com/matthewsedlacek/sezzle-frontend) will direct you to the frontend repository.
+An application that provides multi-user chat with calculator functions in real-time. This [link](https://github.com/matthewsedlacek/sezzle-frontend-2.0) will direct you to the frontend repository.
 
 ## Prompt
 
@@ -12,7 +12,7 @@ An application that provides multi-user chat with calculator functions in real-t
 
 ## Hosted
 
-Backend is hosted on [Heroku](https://sezzle-calculator-backend.herokuapp.com)
+Backend is hosted on [Heroku](https://github.com/matthewsedlacek/sezzle-frontend-2.0)
 
 ## Local Installation
 
