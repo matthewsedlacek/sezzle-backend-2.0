@@ -1,8 +1,7 @@
 class MessagesController < ApplicationController
 
     def index
-        messages = Message.order(created_at: :desc).limit(10)
-        render json: messages
+        messages = Message.order(created_at: :desc)
       end
 
     def create
