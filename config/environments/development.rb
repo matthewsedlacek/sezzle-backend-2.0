@@ -1,17 +1,12 @@
+# this is need in order to call rails_blob_path from my User model in user.rb
+Rails.application.routes.default_url_options = { host: "localhost:3000" }
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
-  
-  # config.web_socket_server_url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
-  # config.action_cable.allowed_request_origins = ['https://sezzle-calculator-backend.herokuapp.com', 'http://sezzle-calculator-backend.herokuapp.com']
-  
-  config.action_cable.allowed_request_origins = ['*', '*']
-
-  config.action_cable.url = "wss://sezzle-calculator-backend.herokuapp.com/cable" 
-
   config.cache_classes = false
 
   # Do not eager load code on boot.
@@ -23,6 +18,8 @@ Rails.application.configure do
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
+    config.action_controller.perform_caching = true
+
     config.cache_store = :memory_store
     config.public_file_server.headers = {
       'Cache-Control' => "public, max-age=#{2.days.to_i}"
@@ -33,7 +30,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Store uploaded files on the local file system (see config/storage.yml for options).
+  # Store uploaded files on the local file system (see config/storage.yml for options)
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
@@ -51,7 +48,7 @@ Rails.application.configure do
   config.active_record.verbose_query_logs = true
 
 
-  # Raises error for missing translations.
+  # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
   # Use an evented file watcher to asynchronously detect changes in source code,
