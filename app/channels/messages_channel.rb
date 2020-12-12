@@ -4,6 +4,4 @@ class MessagesChannel < ApplicationCable::Channel
     stream_for conversation
   end
 
-  def unsubscribed
-  end
 end
